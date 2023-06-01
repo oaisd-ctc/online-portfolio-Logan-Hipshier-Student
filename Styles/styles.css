@@ -68,7 +68,7 @@ justify-content: center;
 .rectangle{
   height:50vh;
   width:100%;
- background-image: url("Images/circuit.jpg");
+ background-image: url("../Images/circuit.jpg");
   background-repeat: no-repeat;
   background-position: center;
   
@@ -123,7 +123,7 @@ li a {
 .frame{
   width:100%;
   height:35%;
-  background-image: url(Images/circuit.jpg);
+  background-image: url(../Images/circuit.jpg);
   margin-bottom: 8%;
   
 }
@@ -137,6 +137,62 @@ li a {
   width:100%;
   background-color: #e1edd2;
 }
-.prjctpic{
+
+#a{
+  background-image:url(../Images/apcollegeboard.png) ;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#b{
+  background-image:url(../Images/OAISD\ CTC\ H\ C.png) ;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#c{
+  background-image:url(../Images/tmp_2565_3-10-2022_40442_.png) ;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.edu{
+  width:20vw;
+  height:65vh;
+
+  overflow:hidden;
+}
+.edu>p{
+  font-size: 90%;
   
+}
+.edu>a{
+  font-size: 1.8vh;
+}
+.proj{
+  width:20vw;
+  height:30vh;
+  
+}
+#projpic{
+  background-image:url(../Images/Screenshot\ 2023-05-25\ 084326.png) ;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+#prop3{
+  flex-direction: column; 
+  justify-content: center;
+  margin-left: 33vw;
+}
+.prjctpic{
+  width:35vw;
+  height:22vh;
+  background-image:url(../Images/IMG_20230412_221802_869.jpg) ;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto
 }
